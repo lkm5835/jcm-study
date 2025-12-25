@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>전취모 스터디그룹 공부 방법</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      font-family: "Noto Sans KR", system-ui, -apple-system, sans-serif;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 16px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 30px;
+      color: #1f2937;
+      line-height: 1.4;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 16px;
+      margin-bottom: 14px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      color: #fff;
+    }
+
+    .btn-secondary {
+      background: linear-gradient(135deg, #16a34a, #065f46);
+      color: #fff;
+    }
+
+    .btn-dark {
+      background: linear-gradient(135deg, #374151, #111827);
+      color: #fff;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+      box-shadow: none;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>전취모 스터디그룹<br />공부 방법</h1>
+
+    <button class="btn btn-primary"
+      onclick="go('https://youtu.be/n0GzrKtnpDA')">
+      전기기사 필기 공부법
+    </button>
+
+    <button class="btn btn-secondary"
+      onclick="go('https://youtu.be/0aCALKAZQ44')">
+      전기기사 실기 공부법
+    </button>
+
+    <button class="btn btn-dark"
+      onclick="go('https://youtu.be/8HEtgYm-slE')">
+      왜? 기출문제 부터 시작해야 하는가?
+    </button>
+
+    <footer>
+      © 전취모 스터디그룹
+    </footer>
+  </div>
+
+  <script>
+    function go(url) {
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+  </script>
+</body>
+</html>
